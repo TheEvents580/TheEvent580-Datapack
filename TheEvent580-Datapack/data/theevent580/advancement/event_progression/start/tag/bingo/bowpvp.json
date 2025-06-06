@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pink_concrete"
+    },
+    "title": "\u00a7dGame 3 : Bow PVP",
+    "description": "\u00a7dBow PVP was the 3rd game chosen (x1 multiplier)",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "theevent580:event_progression/start/tag/bingo",
+  "criteria": {
+    "game_chosen": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

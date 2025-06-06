@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_concrete"
+    },
+    "title": "\u00a7cGame 5 : Trials",
+    "description": "\u00a7cTrials was the 5th game chosen (x1.5 multiplier)",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "theevent580:event_progression/start/bowpvp/build_masters/tag/pause/parkour",
+  "criteria": {
+    "game_chosen": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

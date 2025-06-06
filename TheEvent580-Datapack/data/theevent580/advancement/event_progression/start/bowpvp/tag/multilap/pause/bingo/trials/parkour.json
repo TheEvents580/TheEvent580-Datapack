@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:orange_concrete"
+    },
+    "title": "\u00a76Game 6 : Parkour",
+    "description": "\u00a76Parkour was the 6th game chosen (x2 multiplier)",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "theevent580:event_progression/start/bowpvp/tag/multilap/pause/bingo/trials",
+  "criteria": {
+    "game_chosen": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

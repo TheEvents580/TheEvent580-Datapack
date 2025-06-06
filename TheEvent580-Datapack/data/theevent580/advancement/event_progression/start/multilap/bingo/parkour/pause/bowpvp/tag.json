@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lime_concrete"
+    },
+    "title": "\u00a7aGame 5 : Tag",
+    "description": "\u00a7aTag was the 5th game chosen (x1.5 multiplier)",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "theevent580:event_progression/start/multilap/bingo/parkour/pause/bowpvp",
+  "criteria": {
+    "game_chosen": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

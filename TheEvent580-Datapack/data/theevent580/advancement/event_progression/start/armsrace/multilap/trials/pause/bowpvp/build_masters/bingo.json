@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:yellow_concrete"
+    },
+    "title": "\u00a7eGame 6 : Bingo",
+    "description": "\u00a7eBingo was the 6th game chosen (x2 multiplier)",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "theevent580:event_progression/start/armsrace/multilap/trials/pause/bowpvp/build_masters",
+  "criteria": {
+    "game_chosen": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

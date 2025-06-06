@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_concrete"
+    },
+    "title": "\u00a79Game 6 : Build Masters",
+    "description": "\u00a79Build Masters was the 6th game chosen (x2 multiplier)",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "theevent580:event_progression/start/multilap/bingo/tag/pause/trials/parkour",
+  "criteria": {
+    "game_chosen": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
